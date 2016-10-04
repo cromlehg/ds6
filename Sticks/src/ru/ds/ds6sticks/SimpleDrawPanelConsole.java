@@ -2,6 +2,9 @@ package ru.ds.ds6sticks;
 
 import java.awt.Color;
 import java.awt.Graphics;
+import java.awt.Image;
+import java.io.InputStream;
+import java.net.URL;
 
 import ru.ispras.drawpanel.DrawPanelConsole;
 
@@ -36,8 +39,9 @@ public class SimpleDrawPanelConsole extends DrawPanelConsole {
 
 	@Override
 	public void paint(Graphics g) {
+		Image texture = getTexture("sharik.png");
 		g.setColor(new Color(100, 0, 0));
-		g.fillOval(x, y, w, h);
+		g.drawImage(texture, x, y, w, h, null);
 	}
 
 }
