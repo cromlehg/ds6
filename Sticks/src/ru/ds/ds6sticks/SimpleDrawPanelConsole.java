@@ -1,5 +1,10 @@
 package ru.ds.ds6sticks;
 
+import java.awt.Color;
+import java.awt.Graphics;
+
+import ru.ispras.drawpanel.DrawPanelConsole;
+
 public class SimpleDrawPanelConsole extends DrawPanelConsole {
 
 	int width;
