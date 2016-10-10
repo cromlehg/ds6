@@ -2,9 +2,9 @@ package ru.ds.ds6sticks.model;
 
 public class Stick {
 
-	int palochki;
+	int sticks;
 	
 	public Stick(int sticks) {
-		this.palochki=sticks;
+		this.sticks=sticks;
 	} 
 }
