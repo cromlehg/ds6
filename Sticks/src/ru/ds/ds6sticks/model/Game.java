@@ -1,4 +1,4 @@
-package ru.ds.ds6sticks;
+package ru.ds.ds6sticks.model;
 
 public class Game {
 
