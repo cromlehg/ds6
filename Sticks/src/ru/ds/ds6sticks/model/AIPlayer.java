@@ -2,10 +2,12 @@ package ru.ds.ds6sticks.model;
 
 public class AIPlayer extends Player {
 
-	@Override
-	int getStick(int sticks) {
-		return sticks;
-	}
+	int getAI = 1;
 
 	
+	@Override
+	int getStick(int sticks) {
+		return sticks = sticks - getAI;
+	}
+
 }

@@ -1,11 +1,15 @@
 package ru.ds.ds6sticks.model;
 
+import java.util.Scanner;
+
 public class UserPlayer extends Player {
 
-	@Override
+	 int getPlayer;
+	Scanner in = new Scanner(System.in);
+
 	int getStick(int sticks) {
-		// TODO Auto-generated method stub
-		return 0;
+		getPlayer = in.nextInt();
+		return sticks = sticks - getPlayer;
 	}
 
 }
