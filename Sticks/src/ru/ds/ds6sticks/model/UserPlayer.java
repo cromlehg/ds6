@@ -1,19 +1,17 @@
 package ru.ds.ds6sticks.model;
 
-public class AIPlayer extends Player {
+public class UserPlayer extends Player {
 
 	String name;
 
-	public AIPlayer(String name) {
+	public UserPlayer(String name) {
 		this.name = name;
 	}
-
 	int takeSticks() {
-		return 3;
+		return 1;
 	}
 
 	String getName() {
 		return name;
 	}
-
 }
